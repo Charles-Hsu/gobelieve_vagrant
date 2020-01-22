@@ -8,14 +8,14 @@ CREATE TABLE `group` (
   `master` bigint(20) DEFAULT NULL,
   `super` tinyint(4) NOT NULL DEFAULT '0',
   `name` varchar(255) DEFAULT NULL,
-  `notice` varchar(255) DEFAULT NULL COMMENT '公告',
+  `notice` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 CREATE TABLE `group_member` (
   `group_id` bigint(20) NOT NULL DEFAULT '0',
   `uid` bigint(20) NOT NULL DEFAULT '0',
-  `nickname` varchar(255) DEFAULT NULL COMMENT '群内昵称',
+  `nickname` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`group_id`,`uid`),
   KEY `idx_group_member_uid` (`uid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
