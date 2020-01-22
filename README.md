@@ -5,6 +5,11 @@
 
 3. vagrant ssh
 
+#### 安裝 redis server
+詳細參考這裡 [How to Install Redis on Ubuntu 18.04 & 16.04 LTS](https://tecadmin.net/install-redis-ubuntu/)
+
+    $ sudo apt-get install redis-server
+
 4. sudo redis-server /etc/redis.conf
 
 5. cd /data/wwwroot/im_bin && sudo ./run.sh start
