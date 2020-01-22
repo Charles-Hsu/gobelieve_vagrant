@@ -12,6 +12,9 @@
 
 4. sudo redis-server /etc/redis.conf
 
+#### 安裝 git
+    $ sudo apt-get install git
+
 5. cd /data/wwwroot/im_bin && sudo ./run.sh start
 
 6. 获取token
