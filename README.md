@@ -63,7 +63,7 @@
     
     $ mysql -uroot -pGoBelieve123456
     
-    ![](https://github.com/Charles-Hsu/gobelieve_vagrant/blob/master/vagrant-select.png)
+![](https://github.com/Charles-Hsu/gobelieve_vagrant/blob/master/vagrant-select.png)
     
 
 ###### python /data/wwwroot/cli/gobelieve_group.py add_member $gid $m1 $m2 $m3...
