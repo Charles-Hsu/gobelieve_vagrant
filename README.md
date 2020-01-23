@@ -40,4 +40,6 @@
 ### 更新 credential
 
 這是一個 public repository, 但在 push 時還是一直會出現帳號密碼錯誤的訊息, 這樣可以解決
+
     $ git remote set-url origin https://Charles-Hsu:Github123@github.com/Charles-Hsu/gobelieve_vagrant.git
+詳細可參考[How to fix Git always asking for user credentials](https://www.freecodecamp.org/news/how-to-fix-git-always-asking-for-user-credentials/)
