@@ -35,3 +35,9 @@
 
 8. 测试
    python /data/wwwroot/cli/gobelieve_client.py
+
+
+### 更新 credential
+
+這是一個 public repository, 但在 push 時還是一直會出現帳號密碼錯誤的訊息, 這樣可以解決
+    $ git remote set-url origin https://Charles-Hsu:Github123@github.com/Charles-Hsu/gobelieve_vagrant.git
