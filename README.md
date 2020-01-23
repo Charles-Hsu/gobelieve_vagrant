@@ -45,9 +45,30 @@
 
 7. 群组操作
 
-   python /data/wwwroot/cli/gobelieve_group.py create $master $group_name $is_super $m1 $m2 $m3...
+##### 修訂 /data/wwwroot/cli/rpc.py 程式碼
 
-   python /data/wwwroot/cli/gobelieve_group.py add_member $gid $m1 $m2 $m3...
+    $ sudo vi /data/wwwroot/cli/rpc.py
+    try:
+        from urllib.parse import urlparse
+    except ImportError:
+        from urlparse import urlparse
+    #from urllib.parse import urlencode
+
+###### python /data/wwwroot/cli/gobelieve_group.py create $master $group_name $is_super $m1 $m2 $m3...
+ 
+    $ python /data/wwwroot/cli/gobelieve_group.py create 1 2 3 4 5 6
+    ('new group id:', 1)
+    $ python /data/wwwroot/cli/gobelieve_group.py create 1 2 3 4 5 6
+    ('new group id:', 2)
+    
+    $ mysql -uroot -pGoBelieve123456
+    
+    ![](https://github.com/Charles-Hsu/gobelieve_vagrant/blob/master/vagrant-select.png)
+    
+
+###### python /data/wwwroot/cli/gobelieve_group.py add_member $gid $m1 $m2 $m3...
+    
+    $ python /data/wwwroot/cli/gobelieve_group.py add_member $gid $m1 $m2 $m3...
 
    python /data/wwwroot/cli/gobelieve_group.py remove_member $gid $m1 $m2 $m3...
 
