@@ -12,7 +12,7 @@
 
 #### 執行 redis server
 
-4. sudo redis-server /etc/redis.conf
+    sudo redis-server /etc/redis.conf
 
 #### 安裝 git
     
