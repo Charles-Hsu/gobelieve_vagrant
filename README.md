@@ -13,7 +13,22 @@
 4. sudo redis-server /etc/redis.conf
 
 #### 安裝 git
+    
     $ sudo apt-get install git
+    
+#### 把 gobelieve_vagrant cloen 回來
+
+    $ git clone https://github.com/Charles-Hsu/gobelieve_vagrant.git
+    
+#### 複製所有的東西到 /vagrant
+
+    $ cd gobelieve_vagrant
+    $ cp -rf *.* /vagrant/
+    
+#### 執行 setup.sh
+
+    $ cd /vagrant
+    $ sudo ./setup.sh
 
 5. cd /data/wwwroot/im_bin && sudo ./run.sh start
 
