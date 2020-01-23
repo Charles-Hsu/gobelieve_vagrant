@@ -53,8 +53,10 @@
     except ImportError:
         from urlparse import urlparse
     #from urllib.parse import urlencode
+    
+##### 建立群組
 
-###### python /data/wwwroot/cli/gobelieve_group.py create $master $group_name $is_super $m1 $m2 $m3...
+ python /data/wwwroot/cli/gobelieve_group.py create $master $group_name $is_super $m1 $m2 $m3...
  
     $ python /data/wwwroot/cli/gobelieve_group.py create 1 2 3 4 5 6
     ('new group id:', 1)
