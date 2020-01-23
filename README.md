@@ -17,6 +17,9 @@
 
 5. cd /data/wwwroot/im_bin && sudo ./run.sh start
 
+###### 確認執行是否正常
+    $ sudo netstat -tulpn | grep LISTEN
+
 6. 获取token
 
    python /data/wwwroot/cli/gobelieve_auth.py $uid $name
