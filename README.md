@@ -19,7 +19,7 @@
 
 ###### 確認執行是否正常
     $ sudo netstat -tulpn | grep LISTEN
-    ![Alt text](/path/to/img.jpg)
+    ![Alt text](https://github.com/Charles-Hsu/gobelieve_vagrant/blob/master/vagrant-netstat.png)
 
 6. 获取token
 
