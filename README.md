@@ -19,6 +19,7 @@
 
 ###### 確認執行是否正常
     $ sudo netstat -tulpn | grep LISTEN
+    ![Alt text](/path/to/img.jpg)
 
 6. 获取token
 
