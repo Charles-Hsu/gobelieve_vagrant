@@ -147,7 +147,19 @@
 
 [Why do I get AttributeError: 'NoneType' object has no attribute 'something'?](https://stackoverflow.com/a/8949265/3309645) 從這裡看來應該是獲取 socket 沒有成功
 
+除了改 config.py 之外, 看來 gobelieve_client.py 自己寫了一個 HOST 變數要處理, 沒有讀 config.py
 
+    $ vi gobelieve_client.py
+    ...
+    # HOST = "127.0.0.1"
+    HOST = "192.168.1.120"
+    ...
+
+    $ python gobelieve_client.py
+    
+![](https://github.com/Charles-Hsu/gobelieve_vagrant/blob/master/vagrant-remote-gobelieve_client.png)
+
+Done!
 
 ### 更新 credential
 
