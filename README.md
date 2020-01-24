@@ -140,6 +140,7 @@
     $ sudo tcpdump -i any port 13333
     
 ![](https://github.com/Charles-Hsu/gobelieve_vagrant/blob/master/vagrant-port-13333.png)
+![](https://github.com/Charles-Hsu/gobelieve_vagrant/blob/master/vagrant-host-python.png)
 
 ### 更新 credential
 
