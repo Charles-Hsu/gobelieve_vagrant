@@ -141,7 +141,7 @@
     
 ![](https://github.com/Charles-Hsu/gobelieve_vagrant/blob/master/vagrant-port-13333.png)
 
-但是在 host 端有 python 的 error 要處理
+但是在 host 端有 python 的 error 要處理, 似乎是有個變數是 NoneType, 回頭去看原始碼 
 
 ![](https://github.com/Charles-Hsu/gobelieve_vagrant/blob/master/vagrant-host-python.png)
 
