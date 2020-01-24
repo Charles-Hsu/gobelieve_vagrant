@@ -89,6 +89,11 @@
 - 編輯 Vagrantfile
 
       config.vm.network "public_network"
+      
+- 重新啟動 Vagrant
+
+      vagrant halt
+      vagrant up
 
 
 
