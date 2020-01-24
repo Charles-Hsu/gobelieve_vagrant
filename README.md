@@ -135,6 +135,12 @@
 
 #### 如何確認 VM 的 port 的狀態
 
+執行這個指令可以確認 port 13333 是有被 listen 的
+
+    $ sudo tcpdump -i any port 13333
+    
+![](https://github.com/Charles-Hsu/gobelieve_vagrant/blob/master/vagrant-port-13333.png)
+
 ### 更新 credential
 
 這是一個 public repository, 但在 push 時還是一直會出現帳號密碼錯誤的訊息, 這樣可以解決
