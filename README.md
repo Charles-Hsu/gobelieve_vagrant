@@ -97,6 +97,13 @@
 
 ![](https://github.com/Charles-Hsu/gobelieve_vagrant/blob/master/vagrant-bridge-up.png)
 
+- 進入 vagrant
+
+      vagrant ssh
+      ifconfig
+      
+ 這樣子就可以看到被 assign 的 IP
+ 
 
 
 ### 更新 credential
