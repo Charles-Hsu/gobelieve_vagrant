@@ -129,7 +129,7 @@
 
     $ mysql -uroot -p -h192.168.1.120
     
-    
+![](https://github.com/Charles-Hsu/gobelieve_vagrant/blob/master/vagrant-mysql-from-host.png)
 
 
 ### 更新 credential
