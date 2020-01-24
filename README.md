@@ -145,6 +145,10 @@
 
 ![](https://github.com/Charles-Hsu/gobelieve_vagrant/blob/master/vagrant-host-python.png)
 
+[Why do I get AttributeError: 'NoneType' object has no attribute 'something'?](https://stackoverflow.com/a/8949265/3309645) 從這裡看來應該是獲取 socket 沒有成功
+
+
+
 ### 更新 credential
 
 這是一個 public repository, 但在 push 時還是一直會出現帳號密碼錯誤的訊息, 這樣可以解決
