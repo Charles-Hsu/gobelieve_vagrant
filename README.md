@@ -106,6 +106,31 @@
  
  ![](https://github.com/Charles-Hsu/gobelieve_vagrant/blob/master/vagrant-ifconfig.png)
 
+### 讓 MySql 可以由外面 Host 連進來
+
+    $ mysql -u root -p
+    mysql> use mysql
+    mysql> GRANT ALL ON *.* TO root@'192.168.1.101' IDENTIFIED BY 'GoBelieve123456';
+    mysql> UPDATE user SET Host='192.168.1.101' WHERE Host='*';
+    mysql> SELECT * FROM user WHERE Host='192.168.1.101';
+    mysql> FLUSH PRIVILEGES;
+    
+修改 my.cnf 檔案
+
+    $ sudo vi /etc/mysql/my.cnf
+    #bind-address           = 127.0.0.1
+    bind-address            = 0.0.0.0
+    
+重新啟動 MySql
+
+    $ sudo /etc/init.d/mysql restart
+    
+到 Host 執行下列指令
+
+    $ mysql -uroot -p -h192.168.1.120
+    
+    
+
 
 ### 更新 credential
 
