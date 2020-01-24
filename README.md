@@ -31,8 +31,10 @@
 
     $ cd /vagrant
     $ sudo ./setup.sh
+    
+#### 啟動 im_service
 
-5. cd /data/wwwroot/im_bin && sudo ./run.sh start
+    $ cd /data/wwwroot/im_bin && sudo ./run.sh start
 
 ###### 確認執行是否正常
     $ sudo netstat -tulpn | grep LISTEN
