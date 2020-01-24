@@ -81,6 +81,18 @@
 8. 测试
    python /data/wwwroot/cli/gobelieve_client.py
 
+#### 設定 Vagrant 可以由外界 ping 進來
+
+參考這篇文章 [Vagrant: can not ping guest machine from the host](https://stackoverflow.com/a/25457532/3309645)
+
+- 把 VirtualBox 裡頭的 VM 網路設定為 Bridge ---> Doesn't work, 會有 error
+- 編輯 Vagrantfile
+
+      config.vm.network "public_network"
+
+
+
+
 
 ### 更新 credential
 
