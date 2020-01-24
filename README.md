@@ -95,7 +95,7 @@
       vagrant halt
       vagrant up
 
-
+![](https://github.com/Charles-Hsu/gobelieve_vagrant/blob/master/vagrant-bridge-up.png)
 
 
 
