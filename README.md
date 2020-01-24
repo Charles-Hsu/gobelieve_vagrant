@@ -104,6 +104,7 @@
       
  這樣子就可以看到被 assign 的 IP
  
+ ![](https://github.com/Charles-Hsu/gobelieve_vagrant/blob/master/vagrant-ifconfig.png)
 
 
 ### 更新 credential
