@@ -131,6 +131,9 @@
     
 ![](https://github.com/Charles-Hsu/gobelieve_vagrant/blob/master/vagrant-mysql-from-host.png)
 
+執行了 cli/ 下面的 gobelieve_client.py, 但連不進來
+
+#### 如何確認 VM 的 port 的狀態
 
 ### 更新 credential
 
