@@ -163,6 +163,15 @@
 
 Done!
 
+##### 由 Vscode 連進 Vagrant 修改 code
+
+vagrant 預設的帳號是 vagrant, 密碼也是 vagrant
+
+    $ ssh vagrant@192.168.66.22
+    
+成功!
+    $ ssh vagrant@192.168.66.22
+
 ### 更新 credential
 
 這是一個 public repository, 但在 push 時還是一直會出現帳號密碼錯誤的訊息, 這樣可以解決
