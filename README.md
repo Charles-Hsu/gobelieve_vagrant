@@ -182,3 +182,7 @@ vagrant 預設的帳號是 vagrant, 密碼也是 vagrant
 #### vagrant 參考指令
 - vagrant halt
 - vagrant up
+
+#### MySQL 參考資料
+- mysql> GRANT ALL ON * TO root@'192.168.66.13' IDENTIFIED BY 'GoBelieve123456';
+- mysql> FLUSH privileges;
