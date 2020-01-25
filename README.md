@@ -185,6 +185,11 @@ vagrant 預設的帳號是 vagrant, 密碼也是 vagrant
 - 任何環境的改變都需要 reload 一次
 
       $ vagrant reload
+      $ vagrant ssh
+      
+      $ sudo redis-server /etc/redis.conf
+      $ cd /data/wwwroot/im_bin && sudo ./run.sh start
+      $ sudo netstat -tulpn | grep LISTEN
 
 #### MySQL 參考資料
 - mysql> GRANT ALL ON * TO root@'192.168.66.13' IDENTIFIED BY 'GoBelieve123456';
